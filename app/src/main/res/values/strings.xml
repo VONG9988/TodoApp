@@ -1,0 +1,46 @@
+<resources>
+    <string name="app_name">My Notes</string>
+    <string name="title_main">My Notes</string>
+    <string name="title_add_note">Add Note</string>
+    <string name="title_edit_note">Edit Note</string>
+    <string name="title_categories">Manage Categories</string>
+
+    <!-- Note form hints -->
+    <string name="hint_note_title">Note Title</string>
+    <string name="hint_note_content">Note Details / Content</string>
+    <string name="hint_note_date">Date and Time</string>
+    <string name="hint_category">Select Category</string>
+    <string name="hint_search">Search notes...</string>
+
+    <!-- Category form hints -->
+    <string name="hint_category_name">Category Name</string>
+    <string name="add_category">Add Category</string>
+    <string name="edit_category">Edit Category</string>
+    <string name="all_categories">All Notes</string>
+
+    <!-- Buttons & Actions -->
+    <string name="action_save">Save</string>
+    <string name="action_cancel">Cancel</string>
+    <string name="action_delete">Delete</string>
+    <string name="action_edit">Edit</string>
+    <string name="action_retry">Retry</string>
+    <string name="action_settings">API Settings</string>
+    <string name="action_refresh">Refresh</string>
+
+    <!-- Dialogs & Prompts -->
+    <string name="delete_note_confirm">Are you sure you want to delete this note?</string>
+    <string name="delete_category_confirm">Are you sure you want to delete this category?</string>
+    <string name="empty_notes_title">No Notes Yet</string>
+    <string name="empty_notes_subtitle">Tap the + button below to create your first note!</string>
+    <string name="server_settings_title">Configure REST API Server</string>
+    <string name="server_settings_hint">e.g. http://10.0.2.2:8080/api/</string>
+    <string name="server_settings_save">Save Base URL</string>
+
+    <!-- Messages -->
+    <string name="msg_title_required">Title cannot be empty</string>
+    <string name="msg_note_saved">Note saved successfully</string>
+    <string name="msg_note_deleted">Note deleted</string>
+    <string name="msg_category_saved">Category saved</string>
+    <string name="msg_category_deleted">Category deleted</string>
+    <string name="msg_network_error">Unable to connect to server. Check API URL.</string>
+</resources>

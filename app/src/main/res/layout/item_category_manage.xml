@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginStart="12dp"
+    android:layout_marginTop="5dp"
+    android:layout_marginEnd="12dp"
+    android:layout_marginBottom="5dp"
+    app:cardBackgroundColor="@color/surface"
+    app:cardCornerRadius="10dp"
+    app:cardElevation="1dp"
+    app:strokeColor="@color/card_stroke"
+    app:strokeWidth="1dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:padding="12dp">
+
+        <View
+            android:id="@+id/viewManageCategoryColor"
+            android:layout_width="16dp"
+            android:layout_height="16dp"
+            android:layout_marginEnd="14dp"
+            android:background="@drawable/bg_badge" />
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tvManageCategoryName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/text_primary"
+                android:textSize="15sp"
+                android:textStyle="bold"
+                tools:text="Study" />
+
+            <TextView
+                android:id="@+id/tvManageCategorySub"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="2dp"
+                android:textColor="@color/text_secondary"
+                android:textSize="12sp"
+                tools:text="3 notes" />
+        </LinearLayout>
+
+        <ImageButton
+            android:id="@+id/btnEditCategory"
+            android:layout_width="38dp"
+            android:layout_height="38dp"
+            android:background="?attr/selectableItemBackgroundBorderless"
+            android:contentDescription="@string/action_edit"
+            android:padding="8dp"
+            android:src="@drawable/ic_edit" />
+
+        <ImageButton
+            android:id="@+id/btnDeleteCategory"
+            android:layout_width="38dp"
+            android:layout_height="38dp"
+            android:layout_marginStart="4dp"
+            android:background="?attr/selectableItemBackgroundBorderless"
+            android:contentDescription="@string/action_delete"
+            android:padding="8dp"
+            android:src="@drawable/ic_delete" />
+    </LinearLayout>
+</com.google.android.material.card.MaterialCardView>
